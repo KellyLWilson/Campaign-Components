@@ -40,7 +40,7 @@
           <!--Media object & Header-->
 
           <div class="media">
-            <img src=".\Images\force.jpeg" class="mr-3">
+            <img src=".\images\force.jpeg" class="mr-3">
             <div class="media-body">
               <h1 class="text-danger text-center display-4 mt-0">Baby Yoda for Constable District 3!!! <br>
                 This is the way!!!</h1>
@@ -55,6 +55,11 @@
       <div class="container">
 
         <!--Nav-->
+
+
+
+
+
 
         <nav class="nav nav-pills flex-column flex-sm-row p-0;">
           <a class="flex-sm-fill text-sm-center nav-link active"
@@ -120,25 +125,25 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src=".\Images\byodamain.jpeg" class="d-block w-100" alt="He's adorable!">
+                    <img src=".\images\byodamain.jpeg" class="d-block w-100" alt="He's adorable!">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>He's adorable!</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src=".\Images\byodacoffee.png" class="d-block w-100" alt="He drinks coffee!">
+                    <img src=".\images\byodacoffee.png" class="d-block w-100" alt="He drinks coffee!">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>He drinks coffee!</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src=".\Images\heals.jpeg" class="d-block w-100" alt="He can heal us all!">
+                    <img src=".\images\heals.jpeg" class="d-block w-100" alt="He can heal us all!">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>He can heal us all!</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src=".\Images\byodahope.jpg" class="d-block w-100" alt="This is the way!!!">
+                    <img src=".\images\byodahope.jpg" class="d-block w-100" alt="This is the way!!!">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>This is the way!!!</h5>
                     </div>
@@ -159,107 +164,163 @@
             </div>
           </div>
 
-          <!--begin rest of column div-->
 
-          <div class="container">
+          <!--start card-->
+
+          <div class="container-primary">
             <div class="row">
-              <div class="col-sm">
+              <div class="col-md-6">
 
-                <!--new column with button and badge-->
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card-primary">
+                      <div class="card-body text-center ">
 
-                <div class="yodaModal">
-                  <!-- Button HTML (to Trigger Modal) -->
-                  <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Campaign Trail Highlights</a>
 
-                  <!-- Modal HTML -->
-                  <div id="myModal" class="modal fade">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="text - center close" data-dismiss="modal"
-                            aria-hidden="true">&times;</button>
-                          <h4 class="text-center modal-title">Campaign Trail Highlights</h4>
-                        </div>
-                        <div class="modal-body">
-                          <iframe width="460" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <!--inserting modal-->
+
+                        <div class="yodaModal">
+                          <!-- Button HTML (to Trigger Modal) -->
+                          <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Campaign Trail
+                            Highlights</a>
+
+                          <!-- Modal HTML -->
+                          <div id="myModal" class="modal fade">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="text - center close" data-dismiss="modal"
+                                    aria-hidden="true">&times;</button>
+                                  <h4 class="text-center modal-title">Campaign Trail Highlights</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <iframe width="460" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <!--next card section-->
+
+                <div class="col-sm-15">
+                  <div class="card-primary style=text-center">
+                    <div class="card-body text-center">
+
+                      <div id=donate class="col-sm">
+                        <a class="btn btn-danger" href="https://www.paypal.com/us/home" role="button">Donate to
+                          Campaign</a>
+                      </div>
+
+                      <!--end donation button-->
+
                     </div>
                   </div>
                 </div>
               </div>
 
-              <!--start column for fundraising button-->
 
-              <div id=donate class="col-sm">
-                <a class="btn btn-danger" href="https://www.paypal.com/us/home" role="button"target="_blank"></b>Donate to Campaign</a>
-              </div>
+              <!--next card-->
 
-              <!--end donation button-->
 
               <div class="col-sm">
+                <div class="card-primary">
+                  <div class="card-body text-center ">
 
-                <!--adds a button-->
+                    <!--add a form -->
 
-                <button type="button" class="btn btn-primary btn-lg">Suscribe to Email List
+                    <form>
+                      <div class="form-group col-sm">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                      </div>
+                      <button type="submit" class="btn btn-primary"><b>Join</b></button>
+                    </form>
+                    </button>
+                  </div>
 
-                  <!--add a form -->
+                  <h5 class="card-title text-center ">Suscribe to our Newsletter</h5>
 
-                  <form>
-                    <div class="form-group col-sm">
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                    </div>
-                    <button type="submit" class="btn btn-primary"><b>Join</b></button>
-                  </form>
-                </button>
-              </div>
-
-              <!--column-->
-
-              <div class="col-9">
-                <button type="button" class="btn btn-primary btn-lg">Stance on Issues
-
-                  <!--table-->
-
-                  <table id=issues class="table p-0;">
-                    <thead class="thead-dark-sm">
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Issue</th>
-                        <th scope="col">Stance</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Dark Side</td>
-                        <td>Baby Yoda will use the force to defeat the Dark Side!</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Commitment</td>
-                        <td>"Do or do not. There is no try."</td>
-
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Failure</td>
-                        <td>"The greatest teacher, failure is."</td>
-                      </tr>
-                    </tbody>
-                </button>
+                </div>
               </div>
             </div>
+          </div>
+
+
+
+
+
+          <div class="container-primary text-center">
+
+
+
+
+            <!--table-->
+
+            <table id=issues class="table table-striped table-dark ">
+              <thead class="thead-dark-sm">
+
+
+                <h3 style="margin-top:4rem;"><b>Where Does He Stand?</b></h3>
+
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Issue</th>
+                  <th scope="col">Stance</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Dark Side</td>
+                  <td>Baby Yoda will use the force to defeat the Dark Side!</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Commitment</td>
+                  <td>"Do or do not. There is no try."</td>
+
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Failure</td>
+                  <td>"The greatest teacher, failure is."</td>
+                </tr>
+              </tbody>
+
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+
+  <!--end card-->
+
+  </div>
+  </div>
+
+
+  <!--begin rest of column div-->
+
+
+
+
+
+
+
 
 
 
